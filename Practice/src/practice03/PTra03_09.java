@@ -18,5 +18,58 @@ public class PTra03_09 {
 		 *
 		 * ※ プログラムは何行書いても良いです
 		 */
+
+		java.util.Scanner scanner = new java.util.Scanner(System.in);
+		System.out.println("0～6までの数字を入力して下さい");
+		String line = scanner.nextLine();
+		int num = Integer.parseInt(line);
+		switch(num) {
+		case 0:
+	    System.out.println("日");
+		break;
+		case 1:
+	    System.out.println("月");
+		break;
+		case 2:
+		System.out.println("火");
+		break;
+		case 3:
+		System.out.println("水");
+		break;
+		case 4:
+		System.out.println("木");
+		break;
+		case 5:
+		System.out.println("金");
+		break;
+		case 6:
+		System.out.println("土");
+		
+		
+		}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	}
 }

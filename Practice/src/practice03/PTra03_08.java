@@ -21,8 +21,8 @@ public class PTra03_08 {
 
 		// コマンドプロンプトで入力した数値が変数numに代入されます
 		// ※ コマンドプロンプトで入力された値が、数字ではなかった場合はプログラムがエラーになります
-		int num = scanner.nextInt();
-
+		String line = scanner.nextLine();
+		int num = Integer.parseInt(line);
 		int money = 1000;	// 所持金
 
 		//---------------------ここから本題-----------------------

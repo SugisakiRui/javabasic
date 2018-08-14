@@ -12,7 +12,7 @@ public class PTra03_07 {
 		// 下記の命令は、入力型プログラムで必要な記述になります。
 		java.util.Scanner scanner = new java.util.Scanner(System.in);
 
-		System.out.println("１～５までの数字を入力して下さい。");
+		System.out.println("１～５までの数字を入力して下さい");
 
 		// コマンドプロンプトで入力した文字列が変数lineに代入されます
 		String line = scanner.nextLine();
@@ -30,7 +30,10 @@ public class PTra03_07 {
 		 *
 		 * ※ プログラムは何行書いても良いです
 		 */
-
-
-	}
+         if(num>=0&&num<=5) {
+         System.out.println(num);
+         } else if(num<=0||num>5) {
+	System.out.println("選択したのは、1~5以外です");
+         }
+}
 }

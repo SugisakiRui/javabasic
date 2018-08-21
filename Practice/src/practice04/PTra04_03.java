@@ -7,12 +7,13 @@ package practice04;
  */
 
 public class PTra04_03 {
-	public static void main(String[] args) {
+	
+public static void main(String[] args) {
 		int limitNumber = 10;
 		int random = 0;
 
 		// ★ ランダムで数値が生成された数値が2であった場合にプログラムが終了する条件式にしてください。
-		while () {
+		while (random!=2) {
 
 			// ★ ランダムで数字を生成するプログラムです。
 			// 下記の命令を実行すると変数randomに、0以上、変数limitNumber未満の数字がランダムで代入されます
@@ -22,5 +23,4 @@ public class PTra04_03 {
 		}
 
 		System.out.println("プログラムを終了します。");
-	}
-}
+}}

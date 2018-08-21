@@ -56,11 +56,23 @@ public class PTra04_05 {
 
 			} else {
 				System.out.println("パー！！");
+            
+				
+				
+			}if(myHand==0&&cpuHand==1) {
+			System.out.println(winFlg=true);
+			
+			}else if(myHand==1&&cpuHand==2) {
+		    System.out.println(winFlg=true);
+			
+			}else if(myHand==2&&cpuHand==0) {
+			System.out.println(winFlg=true);
+			}}}}
+            
+			
+            
+			
+			
+		
+	
 
-
-
-			}
-
-		}
-	}
-}

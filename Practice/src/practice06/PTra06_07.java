@@ -24,6 +24,19 @@ public class PTra06_07 {
 		 * ■■□□□
 		 * ■□□□□
 		 */
-
+		for (int i = 0; i < 10; i++) {
+			int num=5-Math.abs(5-i);
+			for (int j = 0; j < num; j++) {
+				System.out.print("■");
+			}
+			
+			for (int j = 5; j > num; j--) {
+				System.out.print("□");
+			}
+			
+			
+		System.out.println();
+		
+		}
 	}
 }

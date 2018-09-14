@@ -32,7 +32,15 @@ public class PTra08_05 {
 		int choice = scanner.nextInt();
 
 		// ★ 変数choiceの中が、1であれば四角形の面積を算出するメソッドを、2であれば三角形の面積を算出するメソッドを呼び出してください
-
+        if (choice==1) {
+        	double choice1=quadrangle(width,height);
+        	System.out.println(choice1);
+        	
+        }
+        else if (choice==2)	{
+        	double choice2=triangle(width,height );
+        	System.out.println(choice2);
+        }
 	}
 
 	/*
@@ -43,9 +51,14 @@ public class PTra08_05 {
 	 * 引数			：double width, double height
 	 *
 	 * 引数で渡された横の長さ(width)と縦の長さ(height)から、四角形の面積を返すメソッド
-	 */
-
-
+	 */ 
+	public static double quadrangle(double width, double height) {
+		double result=width*height;
+		return result;
+	}
+	
+	
+	
 	/*
 	 * ★ 以下の仕様でメソッドを作成してください
 	 *
@@ -55,5 +68,8 @@ public class PTra08_05 {
 	 *
 	 * 引数で渡された横の長さ(width)と縦の長さ(height)から、三角形の面積を返すメソッド
 	 */
-
+	public static double triangle(double width, double height) {
+		double sum=width*height/2;
+		return sum;
+	}
 }
